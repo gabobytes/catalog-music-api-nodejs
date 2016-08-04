@@ -1,6 +1,5 @@
 var express = require('express');
 var bodyparser = require('body-parser');
-var open  = require('open');
 var con = require('./connection.js');
 
 var app = express();
@@ -10,6 +9,4 @@ app.use(bodyparser.json());
 var server = app.listen(8000, function(){
 	console.log('server listening on port '+ server.address().port);
 	con.catalog.getCatalog();
-	//automatically open the browser an run the app
-	//open('http://localhost:8000');
 });
