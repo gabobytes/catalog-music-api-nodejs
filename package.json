@@ -1,0 +1,31 @@
+{
+  "name": "catalog-music-api-nodejs",
+  "version": "1.0.0",
+  "description": "Simple Api RESTful using NodeJs and Postgresql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielmeloarteaga/catalog-music-api-nodejs.git"
+  },
+  "keywords": [
+    "nodejs",
+    "api",
+    "restful",
+    "postgresql",
+    "postgres"
+  ],
+  "author": "Gabriel Melo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gabrielmeloarteaga/catalog-music-api-nodejs/issues"
+  },
+  "homepage": "https://github.com/gabrielmeloarteaga/catalog-music-api-nodejs#readme",
+  "devDependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "pg": "^6.0.3"
+  }
+}
