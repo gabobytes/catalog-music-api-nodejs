@@ -7,4 +7,4 @@ A simple api restful with NodeJS and Postgresql 9.4
 
       \i  'path/to/folder/database.sql'
 
-4. Type on console root folder project: node app.js
+4. In the root of your project type: `npm install` and then `node app.js`
