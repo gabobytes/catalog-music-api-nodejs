@@ -23,7 +23,7 @@
     "url": "https://github.com/gabrielmeloarteaga/catalog-music-api-nodejs/issues"
   },
   "homepage": "https://github.com/gabrielmeloarteaga/catalog-music-api-nodejs#readme",
-  "devDependencies": {
+  "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
     "pg": "^6.0.3"
